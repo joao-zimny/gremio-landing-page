@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+a,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    vertical-align: center;
+}
+
+.sombra {
+    max-width: 1608px;
+    box-shadow: 10px 10px black;
+    border-radius: 4px;
+    outline: 2px solid black;
+}

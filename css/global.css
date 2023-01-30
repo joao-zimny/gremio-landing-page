@@ -1,3 +1,8 @@
+:root {
+    --border: 2px solid black;
+    --shadow: 10px 10px black;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,7 +32,7 @@ header {
 
 .sombra {
     max-width: 1608px;
-    box-shadow: 10px 10px black;
+    box-shadow: var(--shadow);
     border-radius: 4px;
-    outline: 2px solid black;
+    outline: var(--border);
 }
